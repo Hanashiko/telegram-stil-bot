@@ -28,7 +28,3 @@ The bot scans predefined directories on an Android device (Telegram, WhatsApp, I
    ```bash
    python main.py
    ```
-
-## Note
-
-This project is for **educational and testing purposes only**.
